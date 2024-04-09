@@ -1,7 +1,6 @@
 from dash import Dash, dcc, html, Input, Output, callback, dash_table
 from dash.exceptions import PreventUpdate
 import plotly.express as px
-import seaborn as sns
 import pandas as pd
 
 app = Dash(__name__)
