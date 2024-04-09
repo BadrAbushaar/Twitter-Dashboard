@@ -1,0 +1,42 @@
+.filters {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 20px; 
+    background-color: rgb(230, 230, 230);
+    padding: 15px;
+}
+
+.filter-item {
+    width: 200px; 
+}
+
+.filter-dropdown {
+    width: 200px; 
+}
+
+.rc-slider-track {
+    background-color: darkgray;
+}
+
+.rc-slider-handle {
+    background-color: darkgray;
+    border-color: white;
+}
+
+.rc-slider-dot {
+    display: none;
+}
+
+.filter-label {
+    display: flex;
+    align-items: center;
+    margin-right: 10px;
+}
+
+.filter-group {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px; 
+}

@@ -1,0 +1,6 @@
+plotly.express
+pandas
+Dash
+dash
+dash.exceptions
+Flask
