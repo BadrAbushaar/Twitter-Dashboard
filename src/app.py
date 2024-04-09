@@ -4,6 +4,7 @@ import plotly.express as px
 import pandas as pd
 
 app = Dash(__name__)
+server = app.server
 
 df = pd.read_csv('ProcessedTweets.csv')
 months = df['Month'].unique()
